@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-13T21:50:11 EET" name="Default suite" finished-at="2023-03-13T21:50:19 EET" duration-ms="8168">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@117159c0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-03-13T21:50:11 EET" name="Default test" finished-at="2023-03-13T21:50:19 EET" duration-ms="8168">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="startdriver()[pri:0, instance:runner.TestRunner@117159c0]" started-at="2023-03-13T21:50:03 EET" name="startdriver" finished-at="2023-03-13T21:50:11 EET" duration-ms="7825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startdriver -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@117159c0]" started-at="2023-03-13T21:50:11 EET" name="setUpClass" finished-at="2023-03-13T21:50:12 EET" duration-ms="695" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2404b5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@117159c0]" started-at="2023-03-13T21:50:12 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-13T21:50:12 EET" duration-ms="373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate The Subscribtion plans in Egypt"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Egypt Subscribtion plans"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@117159c0]" started-at="2023-03-13T21:50:12 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-13T21:50:14 EET" duration-ms="1750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate The Subscribtion plans in UAE and Jordan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Egypt Subscribtion plans"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@117159c0]" started-at="2023-03-13T21:50:14 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-13T21:50:19 EET" duration-ms="5262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate The Subscribtion plans in UAE and Jordan"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate Egypt Subscribtion plans"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@117159c0]" started-at="2023-03-13T21:50:19 EET" name="tearDownClass" finished-at="2023-03-13T21:50:19 EET" duration-ms="44" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopdriver()[pri:0, instance:runner.TestRunner@117159c0]" started-at="2023-03-13T21:50:19 EET" name="stopdriver" finished-at="2023-03-13T21:50:21 EET" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopdriver -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
